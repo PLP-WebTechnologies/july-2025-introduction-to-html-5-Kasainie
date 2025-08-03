@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+    This is a basic HTML5 file created for Kasaine Lekireu.
+    It demonstrates the use of semantic tags, accessibility best practices,
+    and foundational SEO principles.
+-->
+<html lang="en">
+<head>
+    <!--
+        SEO & Metadata:
+        The meta tags below are crucial for search engines to understand the page.
+        The `charset` ensures proper character display, `viewport` makes the page
+        responsive on different devices, and the `description` is a key factor
+        for search engine rankings.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasaine Lekireu | My Portfolio & Projects</title>
+    <meta name="description" content="Official portfolio and projects of Kasaine Lekireu, showcasing my skills and work in web development, focusing on accessibility and best practices.">
+</head>
+
+<body>
+    <!--
+        HTML5 Semantic Structure:
+        The document is divided into logical sections using semantic tags.
+        These tags (header, nav, main, article, footer, etc.) provide
+        meaning and context to the content for both browsers and assistive
+        technologies like screen readers.
+    -->
+
+    <header>
+        <!--
+            The `header` element represents the introductory content of the page.
+            The `<h1>` tag is the most important heading, defining the main
+            subject of the entire page for both users and search engine crawlers.
+        -->
+        <h1>Welcome to My Professional Portfolio</h1>
+        <nav>
+            <!--
+                The `nav` element signifies a section containing navigation links.
+                Screen readers can easily identify this as a primary navigation menu.
+            -->
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--
+            The `main` element holds the unique and primary content of the page.
+            There should only be one `main` element per document.
+        -->
+
+        <section id="about-me">
+            <!--
+                The `section` element groups related content. The `id` attribute
+                allows for direct linking from the navigation menu.
+            -->
+            <h2>About Kasaine Lekireu</h2>
+            <p>
+                Hello, my name is Kasaine Lekireu. I am a passionate and dedicated individual focused on building
+                web experiences that are not only functional but also accessible to everyone. My journey began with
+                an interest in clean code and a desire to create a more inclusive web.
+                I believe that a strong foundation in HTML5 semantics is the first step towards building robust,
+                future-proof websites.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of my recent projects:</p>
+
+            <article>
+                <!--
+                    The `article` tag represents a self-contained composition in a document.
+                    It can be distributed independently, like a blog post or a news article.
+                    Each project is a good example of an `article`.
+                -->
+                <h3>Project One: Accessible Landing Page</h3>
+                <p>
+                    A landing page built from scratch, focusing exclusively on using correct HTML5 semantic tags
+                    to ensure maximum accessibility and readability for screen readers.
+                </p>
+                <!--
+                    You can add more details here later, such as a link to the project.
+                -->
+            </article>
+
+            <article>
+                <h3>Project Two: Semantic Blog Layout</h3>
+                <p>
+                    An experiment in creating a blog post layout using only semantic HTML5 tags like
+                    `<header>`, `<figure>`, `<blockquote>`, and `<p>`, without any CSS.
+                </p>
+            </article>
+        </section>
+
+        <aside id="contact">
+            <!--
+                The `aside` element contains content that is tangentially related
+                to the content around it, like a sidebar.
+            -->
+            <h2>Get in Touch</h2>
+            <p>Feel free to connect with me!</p>
+            <ul>
+                <li><strong>Email:</strong> kasainelekireu@gmail.com</li>
+                <li><strong>LinkedIn:</strong> linkedin.com/in/kasainelekireu</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <!--
+            The `footer` element represents a footer for its nearest sectioning content
+            or for the entire page. It often contains copyright information,
+            contact info, or links to related documents.
+        -->
+        <p>&copy; <time datetime="2025">2025</time> Kasaine Lekireu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
